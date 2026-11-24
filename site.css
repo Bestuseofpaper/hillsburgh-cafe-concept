@@ -43,7 +43,7 @@ a, section { scroll-margin-top: 1.25rem; }
 .eyebrow { display: flex; align-items: center; gap: .5rem; font-size: .875rem; line-height: 1.35; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; }
 .hero .eyebrow { color: #f2d6a4; }
 .hero .eyebrow span { width: 1.25rem; height: 1px; background: currentColor; }
-h1 { font-size: clamp(3.4rem, 6.35vw, 6.3rem); margin: .85rem 0 1.2rem; }
+h1 { font-size: clamp(3.4rem, 6.2vw, 6rem); margin: .85rem 0 1.2rem; }
 .hero h1 em { color: #f4d5a0; font-weight: 500; }
 .intro { max-width: 26rem; font-size: clamp(1.02rem, 1.6vw, 1.28rem); color: #f3ebdf; }
 .hero-image { position: relative; min-width: 0; background: #796549; }

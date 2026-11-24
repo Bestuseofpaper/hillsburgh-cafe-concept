@@ -7,7 +7,7 @@
   --sand: #ead3a9;
   --rule: #d9ccba;
   --rust: #8f422c;
-  --serif: Fraunces, Georgia, serif;
+  --serif: Georgia, "Times New Roman", serif;
   --sans: "DM Sans", system-ui, sans-serif;
   font: 100%/1.55 var(--sans);
   color: var(--ink);
@@ -17,7 +17,7 @@
 html { scroll-behavior: smooth; }
 body { margin: 0; }
 h1, h2, h3, p, figure { margin: 0; }
-h1, h2, h3 { font-family: var(--serif); font-weight: 500; line-height: 1.02; letter-spacing: -.045em; }
+h1, h2, h3 { font-family: var(--serif); font-weight: 400; line-height: 1.06; letter-spacing: -.025em; }
 p { text-wrap: pretty; }
 figure { overflow: hidden; }
 img { display: block; width: 100%; height: auto; object-fit: cover; }
@@ -32,7 +32,7 @@ a, section { scroll-margin-top: 1.25rem; }
 .demo-banner a { font-weight: 700; text-underline-offset: .16em; }
 .site-header { background: var(--paper); }
 .header-inner { display: flex; justify-content: space-between; align-items: center; gap: 1rem 2rem; min-height: 88px; padding-block: .8rem; }
-.wordmark { color: var(--green); text-decoration: none; font: 600 2.05rem/.97 var(--serif); letter-spacing: -.07em; display: block; }
+.wordmark { color: var(--green); text-decoration: none; font: 700 2rem/1.02 var(--serif); letter-spacing: -.025em; display: block; }
 .wordmark span { display: block; padding-top: .4rem; font: 700 .71rem/1.2 var(--sans); letter-spacing: .14em; text-transform: uppercase; }
 .header-inner nav { display: flex; flex-wrap: wrap; align-items: center; gap: .35rem 1.7rem; }
 .header-inner nav a { font-weight: 700; font-size: .94rem; text-decoration: none; padding-block: .4rem; }
@@ -44,7 +44,7 @@ a, section { scroll-margin-top: 1.25rem; }
 .hero .eyebrow { color: #f2d6a4; }
 .hero .eyebrow span { width: 1.25rem; height: 1px; background: currentColor; }
 h1 { font-size: clamp(3.4rem, 6.2vw, 6rem); margin: .85rem 0 1.2rem; }
-.hero h1 em { color: #f4d5a0; font-weight: 500; }
+.hero-accent { color: #f4d5a0; }
 .intro { max-width: 26rem; font-size: clamp(1.02rem, 1.6vw, 1.28rem); color: #f3ebdf; }
 .hero-image { position: relative; min-width: 0; background: #796549; }
 .hero-image img { position: absolute; inset: 0; height: 100%; object-position: 52% 58%; }
